@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Arvo:wght@700&family=Instrument+Serif:ital@0;1&family=Tangerine:wght@700&display=swap');
+* {
+    border:0;
+    padding :0;
+    margin:0;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgb(190, 229, 242), rgb(250, 210, 237)); 
+    font-family: 'Arvo', serif;
+}
+.div-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border:5px solid pink;
+}
+div{
+ padding: 20px;
+ border:5px solid pink;
+}
+input{
+    padding: 9px;
+    border-radius: 9px;
+    border-color: rgb(190, 157, 221);
+    border:2px solid rgb(232, 129, 56) ;
+    background-color: bisque;
+}
+input:hover{
+    background-color: rgb(225, 173, 220);
+    text-decoration-line: underline;
+}
+input:visited{
+    background-color: rgb(211, 134, 134);
+}
+label{
+ 
+ padding: 5px;
+ text-decoration:none
+
+}
+label:hover{
+    background-color: wheat;
+    text-transform:capitalize;
+    text-decoration: underline;
+}
+textarea{
+    background-color: beige;
+    border:5px solid rgb(221, 148, 230);
+}
+button{
+    background-color: bisque;
+    padding: 7px;
+    border: 6px solid pink;
+}
+button:hover{
+    background-color: coral;
+    
+}
